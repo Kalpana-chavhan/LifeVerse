@@ -115,16 +115,16 @@ Basically, I wanted it to feel like you're inside a video game, not just using a
 ### Installation:
 
 ``bash
-# 1. Clone
+#### 1. Clone
 git clone <my-repo-url>
 cd lifeverse
 
-# 2. Install dependencies (I use npm, but yarn/bun work too)
+#### 2. Install dependencies (I use npm, but yarn/bun work too)
 npm install
 
-# 3. Set up your .env file 
+#### 3. Set up your .env file 
 
-# 4. Run it!
+#### 4. Run it!
 npm run dev
 
 
