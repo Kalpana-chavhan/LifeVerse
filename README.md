@@ -279,6 +279,13 @@ Now stop reading and go start your adventure! 🚀
 **Transform your life, one quest at a time.** ✨
 
 ---
+### 🔧 Project Status
+
+This project is currently a work in progress.
+Some features may be incomplete, and the application may contain bugs or unstable behavior.
+The codebase is under active development, and changes may be made frequently as improvements, fixes, and enhancements are implemented.
+
+---
 
 *P.S. - If you max out all your creatures and reach level 100, DM me for a virtual high-five* 🙌
 
