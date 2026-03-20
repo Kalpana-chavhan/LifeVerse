@@ -3,7 +3,7 @@
 Made by : kalpanachavhan347@gmail.com
 
 
-**Turn your real life into an epic MMORPG.** Every habit, every quest, every achievement — your actual life becomes a game. Earn XP for doing laundry. Evolve creatures by studying. Build a city by saving money.
+**Turn your real life into an epic MMORPG.** Every habit, every quest, every achievement; your actual life becomes a game. Earn XP for doing laundry. Evolve creatures by studying. Build a city by saving money.
 
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)](https://react.dev)
@@ -17,7 +17,7 @@ Made by : kalpanachavhan347@gmail.com
 
 Imagine Pokémon, The Sims, and Habitica had a baby, and that baby grew up to be obsessed with productivity. That's LifeVerse!
 
-Every single thing you do in real life — studying, exercising, saving money, drinking water — turns into quests, levels you up, evolves your creatures, and builds your city.
+Every single thing you do in real life : studying, exercising, saving money, drinking water; turns into quests, levels you up, evolves your creatures, and builds your city.
 
 ---
 
