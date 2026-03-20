@@ -1,6 +1,7 @@
-# 🎮 LifeVerse — Gamify Your Entire Reality
+# 🎮 LifeVerse : Gamify Your Entire Reality
 
-> *Made with 💜 by Kalpana*
+Made by : kalpanachavhan347@gmail.com
+
 
 **Turn your real life into an epic MMORPG.** Every habit, every quest, every achievement — your actual life becomes a game. Earn XP for doing laundry. Evolve creatures by studying. Build a city by saving money.
 
@@ -12,7 +13,7 @@
 
 ---
 
-## 🚀 What Is This?
+##  What Is This?
 
 Imagine Pokémon, The Sims, and Habitica had a baby, and that baby grew up to be obsessed with productivity. That's LifeVerse!
 
@@ -20,7 +21,7 @@ Every single thing you do in real life — studying, exercising, saving money, d
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---|---|
@@ -36,7 +37,7 @@ Every single thing you do in real life — studying, exercising, saving money, d
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: Next.js 15, React 19, TypeScript, Tailwind CSS, Framer Motion
 - **Backend**: Next.js API Routes (App Router)
@@ -47,7 +48,7 @@ Every single thing you do in real life — studying, exercising, saving money, d
 
 ---
 
-## 📦 Setup Guide — Get Running in 5 Minutes
+##  Setup Guide — Get Running in 5 Minutes
 
 ### Step 1: Prerequisites
 
@@ -89,7 +90,7 @@ This installs everything: Next.js, React, MongoDB driver, animations, etc.
 
 ---
 
-### Step 4: Set Up MongoDB Atlas (Free!)
+### Step 4: Set Up MongoDB Atlas
 
 1. Go to [MongoDB Atlas](https://cloud.mongodb.com) and **create a free account**
 2. Click **"Build a Database"** → choose **FREE** tier (M0) → pick any region
@@ -164,56 +165,6 @@ You should see the LifeVerse landing page!
 
 ---
 
-## 🎨 Customizing LifeVerse as Your Own
-
-### Change the Author Name
-In `src/app/page.tsx`, find:
-```tsx
-<p className="text-gray-500 mb-10 font-body">Made with 💜 by Kalpana</p>
-```
-Change `Kalpana` to your name.
-
-### Change Colors / Theme
-Edit `tailwind.config.js` — the `neon` colors:
-```js
-neon: {
-  purple: '#b44fff',  // Main accent — change this
-  cyan: '#00f5ff',    // Secondary accent
-  green: '#39ff14',   // Success color
-  // ... etc
-}
-```
-
-### Change the App Name
-1. `src/app/layout.tsx` — update `metadata.title`
-2. `src/components/layout/Sidebar.tsx` — update the `LIFEVERSE` text
-3. `src/app/page.tsx` — update the hero text
-
-### Add New Quest Categories
-In `src/app/quests/page.tsx`, add to the `CATEGORIES` array and `CAT_ICONS` object.
-
-### Add New Buildings
-In `src/app/api/city/route.ts`, add entries to the `BUILDINGS` array:
-```ts
-{ type: 'dojo', name: 'Dojo', emoji: '🥋', unlockLevel: 9, category: 'fitness', description: 'Master of martial arts' }
-```
-
-### Add New HabitMon Creatures
-In `src/models/Creature.ts`, add to `CREATURE_SPECIES`:
-```ts
-creativity: { name: 'Artiso', emojis: ['🥚', '🎨', '🖼️', '🌌'], color: '#ff6b00' }
-```
-
-### Change XP Formula
-In `src/lib/utils.ts`, modify `calculateLevel()`:
-```ts
-export function calculateLevel(xp: number): number {
-  return Math.floor(Math.sqrt(xp / 100)) + 1  // Change 100 to make leveling faster/slower
-}
-```
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -271,67 +222,6 @@ lifeverse/
 
 ---
 
-## 🚢 Deploying to Production
-
-### Deploy to Vercel (Recommended — Free!)
-
-1. Push your code to GitHub:
-```bash
-git init
-git add .
-git commit -m "Initial LifeVerse commit"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/lifeverse.git
-git push -u origin main
-```
-
-2. Go to [vercel.com](https://vercel.com) → **"New Project"** → Import your GitHub repo
-
-3. Add Environment Variables in Vercel dashboard:
-   - `MONGODB_URI` — your MongoDB connection string
-   - `BETTER_AUTH_SECRET` — your secret key
-   - `BETTER_AUTH_URL` — your Vercel URL (e.g. `https://lifeverse.vercel.app`)
-   - `NEXT_PUBLIC_APP_URL` — same as above
-
-4. Click **Deploy!** Your app will be live in ~2 minutes.
-
-5. **Important:** Update MongoDB Atlas Network Access to allow Vercel IPs (or use "Allow from anywhere" with `0.0.0.0/0`).
-
----
-
-## 🐛 Troubleshooting
-
-**"Cannot connect to MongoDB"**
-- Check your `MONGODB_URI` in `.env` — make sure the password is correct
-- Check MongoDB Atlas Network Access — your IP must be whitelisted
-- Make sure you added `/lifeverse` at the end of the connection string
-
-**"Module not found" errors**
-- Run `npm install` again
-- Delete `node_modules` and `.next`, then run `npm install`
-
-**"JWT_SECRET is not defined"**
-- Make sure your `.env` file has `BETTER_AUTH_SECRET` set
-
-**Page shows blank / 404**
-- Make sure the dev server is running (`npm run dev`)
-- Check the terminal for error messages
-
-**Styles not loading**
-- Run `npm run dev` (not just `node server.js`)
-- Make sure `postcss.config.js` exists
-
----
-
-## 🤝 Contributing
-
-1. Fork the repo
-2. Create your feature branch: `git checkout -b feature/new-game`
-3. Commit changes: `git commit -m 'Add Word Scramble game'`
-4. Push: `git push origin feature/new-game`
-5. Open a Pull Request
-
----
 
 ## 📄 License
 
@@ -339,11 +229,9 @@ MIT — do whatever you want with it!
 
 ---
 
-## 💜 Credits
+
 
 Built with love by **Kalpana**.
-
-*"Because life is way more fun when you're earning XP for doing laundry."* 😎
 
 ---
 
